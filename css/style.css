@@ -1,0 +1,52 @@
+.search-container div{
+    padding: 6px 0 6px 8px;
+}
+.search-container div{
+    color: rgb(143, 134, 134);
+}
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.hero .fs-1{
+    font-size: 50px !important;
+}
+.weather-cred{
+    background-color: rgba(255, 255, 255, 0.08);
+}
+#Hourly{
+    width: 90%;
+    left:5%;
+    bottom: -30%;
+    font-size: 12px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+#Hourly .inner{
+    background-color: rgba(0, 0, 0, 0.01);
+}
+p{
+    margin-bottom: 0 ;
+}
+#forecast h2{
+    font-size: 32px;
+}
+#forecast .inner{
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+#forecast .inner:hover{
+    box-shadow: 0 0.5rem 1rem rgba(0, 119, 255, 0.3) !important;
+}
+#forecast .inner.active{
+    box-shadow:0 0.5rem 1rem rgba(0, 119, 255, 0.3) !important;
+    
+}
+.fs-xs{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(88, 88, 88);
+}
+@media screen and (min-width:768px) {
+    #Hourly {bottom: -15%;}
+}
